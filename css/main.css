@@ -87,6 +87,93 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+   .content-wrapper{
+    width: 90%;
+   }
+
+/*========= HEADER AND FOOTER STYLES ========*/
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper {
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+
+
+/*=============MAIN PAGE==============*/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+}
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+.features{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+/* .features .feature-icons{
+  display: flex;
+  justify-content: center;
+} */
+
+.reviews{  
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+
+/* =============== ABOUT PAGE =============*/
+.mission{
+  display: flex;
+  justify-content: center;
+}
+
+.general-contact-info{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+/* =============== FAQ PAGE =============*/
+.faqs {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -180,9 +267,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -193,6 +280,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -260,4 +348,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
